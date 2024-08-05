@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722838640185,
+  "lastUpdate": 1722840532284,
   "repoUrl": "https://github.com/JingZhe-Shan_fisglbl/qtm-benchmark",
   "entries": {
     "Benchmark.Net Benchmark": [
@@ -126,6 +126,48 @@ window.BENCHMARK_DATA = {
             "value": 172745887.75510204,
             "unit": "ns",
             "range": "± 14607528.648027403"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jingzhe.shan@fisglobal.com",
+            "name": "Jing Zhe Shan",
+            "username": "JingZhe-Shan_fisglbl"
+          },
+          "committer": {
+            "email": "jingzhe.shan@fisglobal.com",
+            "name": "Jing Zhe Shan",
+            "username": "JingZhe-Shan_fisglbl"
+          },
+          "distinct": true,
+          "id": "a437eabb32a50f8223d330030c05ea6e898561e7",
+          "message": "two runs",
+          "timestamp": "2024-08-05T18:42:36+12:00",
+          "tree_id": "3b75e0429c2141d8a6e0441a9ff18eb5c25db754",
+          "url": "https://github.com/JingZhe-Shan_fisglbl/qtm-benchmark/commit/a437eabb32a50f8223d330030c05ea6e898561e7"
+        },
+        "date": 1722840530820,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.PipeLines",
+            "value": 77914454.25531913,
+            "unit": "ns",
+            "range": "± 5831494.689241921"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.CsvHelper",
+            "value": 142354470.52631578,
+            "unit": "ns",
+            "range": "± 14604419.728731157"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.AsyncStream",
+            "value": 173394909,
+            "unit": "ns",
+            "range": "± 13643899.349521285"
           }
         ]
       }
