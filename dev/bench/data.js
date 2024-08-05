@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722847273023,
+  "lastUpdate": 1722888083273,
   "repoUrl": "https://github.com/JingZhe-Shan_fisglbl/qtm-benchmark",
   "entries": {
     "Benchmark.Net Benchmark": [
@@ -378,6 +378,72 @@ window.BENCHMARK_DATA = {
             "value": 169952477.1276596,
             "unit": "ns",
             "range": "± 15131096.753259074"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jingzhe.shan@fisglobal.com",
+            "name": "Jing Zhe Shan",
+            "username": "JingZhe-Shan_fisglbl"
+          },
+          "committer": {
+            "email": "jingzhe.shan@fisglobal.com",
+            "name": "Jing Zhe Shan",
+            "username": "JingZhe-Shan_fisglbl"
+          },
+          "distinct": true,
+          "id": "74a9f2a9eeae8e9c5bddbac2edd3074f27eafa70",
+          "message": "Fix the build",
+          "timestamp": "2024-08-06T07:55:04+12:00",
+          "tree_id": "7812c93c84464aecdc8e18c04a4644d4002d5d4b",
+          "url": "https://github.com/JingZhe-Shan_fisglbl/qtm-benchmark/commit/74a9f2a9eeae8e9c5bddbac2edd3074f27eafa70"
+        },
+        "date": 1722888081190,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.PipeLines",
+            "value": 99489328.61952865,
+            "unit": "ns",
+            "range": "± 19216645.544526458"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_Old_Modulate",
+            "value": 268.9600934885969,
+            "unit": "ns",
+            "range": "± 16.400327399486216"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.AsyncStream",
+            "value": 177579783.6734694,
+            "unit": "ns",
+            "range": "± 16848004.870742887"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_New_Modulate",
+            "value": 132.61460731195848,
+            "unit": "ns",
+            "range": "± 4.959625794508649"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.CsvHelper",
+            "value": 155687031.3131313,
+            "unit": "ns",
+            "range": "± 19263406.14981112"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_Old_Remodulate",
+            "value": 133.69080449144045,
+            "unit": "ns",
+            "range": "± 7.863338508960635"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_New_Remodulate",
+            "value": 55.11424094438553,
+            "unit": "ns",
+            "range": "± 2.0213229036269107"
           }
         ]
       }
