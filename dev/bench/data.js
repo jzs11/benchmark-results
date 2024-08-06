@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722903990716,
+  "lastUpdate": 1722981107277,
   "repoUrl": "https://github.com/JingZhe-Shan_fisglbl/qtm-benchmark",
   "entries": {
     "Benchmark.Net Benchmark": [
@@ -894,6 +894,198 @@ window.BENCHMARK_DATA = {
             "value": 156868.34059495194,
             "unit": "ns",
             "range": "± 1500.0367706531733"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "jingzhe.shan@fisglobal.com",
+            "name": "Jing Zhe Shan",
+            "username": "JingZhe-Shan_fisglbl"
+          },
+          "committer": {
+            "email": "jingzhe.shan@fisglobal.com",
+            "name": "Jing Zhe Shan",
+            "username": "JingZhe-Shan_fisglbl"
+          },
+          "distinct": true,
+          "id": "b8df2ae1502fcc2eb4c65bfa46cb5139cda2c652",
+          "message": "Verify",
+          "timestamp": "2024-08-07T09:37:30+12:00",
+          "tree_id": "5576220a788c79d823851d80e61ebc409fe04af9",
+          "url": "https://github.com/JingZhe-Shan_fisglbl/qtm-benchmark/commit/b8df2ae1502fcc2eb4c65bfa46cb5139cda2c652"
+        },
+        "date": 1722981105740,
+        "tool": "benchmarkdotnet",
+        "benches": [
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.PipeLines",
+            "value": 79460479.9625468,
+            "unit": "ns",
+            "range": "± 5295890.947720944"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_Old_Modulate",
+            "value": 354.07790660858154,
+            "unit": "ns",
+            "range": "± 10.660404560136783"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.AsyncStream",
+            "value": 179291323.97959185,
+            "unit": "ns",
+            "range": "± 15990062.213688873"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_New_Modulate",
+            "value": 128.99011146454583,
+            "unit": "ns",
+            "range": "± 4.826247920388075"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.CsvHelper",
+            "value": 151533932.32323232,
+            "unit": "ns",
+            "range": "± 14314392.896838726"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_Old_Remodulate",
+            "value": 131.51859045028687,
+            "unit": "ns",
+            "range": "± 4.699897011416077"
+          },
+          {
+            "name": "Quantum.Benchmark.Pipeline.FileIoTest.TextReader",
+            "value": 462764073.3333333,
+            "unit": "ns",
+            "range": "± 22932410.56081588"
+          },
+          {
+            "name": "Quantum.Benchmark.GFF166.GF166Benchmarks.GF166_New_Remodulate",
+            "value": 54.084292367884984,
+            "unit": "ns",
+            "range": "± 1.9413028892096325"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.ForEach(ListSize: 100)",
+            "value": 72.01943489221426,
+            "unit": "ns",
+            "range": "± 1.9904129358741156"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.For(ListSize: 100)",
+            "value": 70.05481719970703,
+            "unit": "ns",
+            "range": "± 1.5447976413169562"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanForeach(ListSize: 100)",
+            "value": 43.4787517786026,
+            "unit": "ns",
+            "range": "± 0.4360212425500966"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanFor(ListSize: 100)",
+            "value": 43.7778107325236,
+            "unit": "ns",
+            "range": "± 0.4554191618283175"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.BenchmarkRiderSuggestedLinq(ListSize: 100)",
+            "value": 185.39197444915771,
+            "unit": "ns",
+            "range": "± 3.4748578343791294"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.ForEach(ListSize: 1000)",
+            "value": 657.131636770148,
+            "unit": "ns",
+            "range": "± 14.630143769234632"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.For(ListSize: 1000)",
+            "value": 655.5379347367721,
+            "unit": "ns",
+            "range": "± 15.765081321445416"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanForeach(ListSize: 1000)",
+            "value": 348.35451671055387,
+            "unit": "ns",
+            "range": "± 4.935831416860154"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanFor(ListSize: 1000)",
+            "value": 357.62480629814996,
+            "unit": "ns",
+            "range": "± 7.503729212952647"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.BenchmarkRiderSuggestedLinq(ListSize: 1000)",
+            "value": 1631.1150550842285,
+            "unit": "ns",
+            "range": "± 34.6364391339968"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.ForEach(ListSize: 10000)",
+            "value": 6495.706523548473,
+            "unit": "ns",
+            "range": "± 138.39103005112779"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.For(ListSize: 10000)",
+            "value": 6618.565192589393,
+            "unit": "ns",
+            "range": "± 231.64227378754595"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanForeach(ListSize: 10000)",
+            "value": 3303.8103342056274,
+            "unit": "ns",
+            "range": "± 64.09110261822623"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanFor(ListSize: 10000)",
+            "value": 3346.8994503929503,
+            "unit": "ns",
+            "range": "± 76.22137986619306"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.BenchmarkRiderSuggestedLinq(ListSize: 10000)",
+            "value": 16095.990811861479,
+            "unit": "ns",
+            "range": "± 421.9369780097956"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.ForEach(ListSize: 100000)",
+            "value": 65227.78676350912,
+            "unit": "ns",
+            "range": "± 1679.3352218124332"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.For(ListSize: 100000)",
+            "value": 66443.21234809028,
+            "unit": "ns",
+            "range": "± 2496.744041650833"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanForeach(ListSize: 100000)",
+            "value": 34088.44510591947,
+            "unit": "ns",
+            "range": "± 530.8301776101868"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.AsSpanFor(ListSize: 100000)",
+            "value": 34136.73536512587,
+            "unit": "ns",
+            "range": "± 953.5196411058182"
+          },
+          {
+            "name": "Quantum.Benchmark.Span.AsSpanLoopBenchmark.BenchmarkRiderSuggestedLinq(ListSize: 100000)",
+            "value": 159830.46351841517,
+            "unit": "ns",
+            "range": "± 2452.904914171058"
           }
         ]
       }
